@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlesActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controles"
+        android:textSize="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+    <Switch
+        android:id="@+id/swfocos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Focos"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:onClick="clickcontroles">
+    </Switch>
+    <Switch
+        android:id="@+id/swbomba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bomba"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="clickcontroles">
+    </Switch>
+    <Switch
+        android:id="@+id/swventilador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ventilador"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="clickcontroles">
+    </Switch>
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Actualizar"
+        android:textSize="20dp"
+        android:onClick="clickcontroles"></Button>
+</LinearLayout>
